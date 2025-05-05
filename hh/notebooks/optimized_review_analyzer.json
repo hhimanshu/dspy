@@ -1,0 +1,52 @@
+{
+  "analyzer.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "review": "The smartwatch's fitness tracking is accurate, but the battery drains too quickly.",
+        "sentiment": "mixed",
+        "features_mentioned": [
+          "fitness tracking",
+          "battery life"
+        ]
+      },
+      {
+        "review": "This blender makes the smoothest smoothies I've ever had!",
+        "sentiment": "positive",
+        "features_mentioned": [
+          "blending performance"
+        ]
+      }
+    ],
+    "signature": {
+      "instructions": "Analyze the provided product review to determine the overall sentiment (positive, negative, or neutral) and identify the key features discussed in the review. Use a chain of thought approach to reason through the review content before producing the structured output. Respond with the fields `sentiment` and `key_features`, including your reasoning process, and format the output clearly.",
+      "fields": [
+        {
+          "prefix": "Review:",
+          "description": "${review}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Sentiment:",
+          "description": "${sentiment}"
+        },
+        {
+          "prefix": "Key Features:",
+          "description": "${key_features}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "2.6.14",
+      "cloudpickle": "3.1"
+    }
+  }
+}

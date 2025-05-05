@@ -1,0 +1,21 @@
+review_text,sentiment,features_mentioned
+This phone has amazing battery life and the camera quality is outstanding.,positive,"['battery life', 'camera quality']"
+The laptop overheats quickly and the keyboard is uncomfortable to type on.,negative,"['thermal management', 'keyboard comfort']"
+"Average performance for the price, but the design is sleek.",neutral,"['performance', 'design']"
+The headphones have great sound quality but poor noise cancellation.,mixed,"['sound quality', 'noise cancellation']"
+"The smartwatch's fitness tracking is accurate, but the battery drains too quickly.",mixed,"['fitness tracking', 'battery life']"
+This blender makes the smoothest smoothies I've ever had!,positive,['blending performance']
+The TV has excellent picture quality and smart features.,positive,"['picture quality', 'smart features']"
+This coffee maker is a complete waste of money. It broke after two weeks.,negative,['durability']
+"The wireless charger works as expected, nothing special.",neutral,['charging functionality']
+The gaming mouse has responsive buttons but the software is buggy.,mixed,"['button responsiveness', 'software quality']"
+Disappointed with this purchase. The comfort are terrible.,negative,['comfort']
+This product is okay. The price are average.,neutral,['price']
+Disappointed with this purchase. The battery life and user interface are terrible.,negative,"['battery life', 'user interface']"
+I love this product! The durability and user interface and comfort are excellent.,positive,"['durability', 'user interface', 'comfort']"
+"The durability is great, but the performance could be improved.",mixed,"['durability', 'performance', 'battery life']"
+"The comfort is great, but the battery life could be improved.",mixed,['comfort']
+"The functionality is great, but the quality could be improved.",mixed,"['functionality', 'quality']"
+"The comfort is great, but the quality could be improved.",mixed,"['comfort', 'quality', 'user interface']"
+Disappointed with this purchase. The durability and performance and user interface are terrible.,negative,"['durability', 'performance', 'user interface']"
+I love this product! The comfort are excellent.,positive,['comfort']

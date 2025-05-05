@@ -1,0 +1,20 @@
+{
+  "instructions": "Analyze the provided product review to determine the overall sentiment (positive, negative, or neutral) and identify the key features discussed in the review. Use a chain of thought approach to reason through the review content before producing the structured output. Respond with the fields `sentiment` and `key_features`, including your reasoning process, and format the output clearly.",
+  "demos": [
+    {
+      "review": "The smartwatch's fitness tracking is accurate, but the battery drains too quickly.",
+      "sentiment": "mixed",
+      "key_features": [
+        "fitness tracking",
+        "battery life"
+      ]
+    },
+    {
+      "review": "This blender makes the smoothest smoothies I've ever had!",
+      "sentiment": "positive",
+      "key_features": [
+        "blending performance"
+      ]
+    }
+  ]
+}

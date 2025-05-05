@@ -36,13 +36,13 @@ After completing this course, learners will be able to:
 
 ### Chapter 2: Setting Up the Environment in VSCode
 
-| Topic | Level | Learning Goal |
-|-------|-------|---------------|
-| Installing DSPy and Dependencies | Apply | Set up a complete DSPy development environment |
-| Configuring VSCode with Jupyter | Apply | Configure VSCode for efficient DSPy development |
-| Setting Up API Keys | Apply | Configure necessary API connections for language models |
-| Loading and Exploring HotPotQA | Apply | Access and examine sample data from HotPotQA |
-| Testing Basic DSPy Functionality | Apply | Verify your environment is properly configured |
+| Topic | Level | Learning Goal | Comments |
+|-------|-------|---------------| ----------|
+| Installing DSPy and Dependencies | Apply | Set up a complete DSPy development environment ||
+| Configuring VSCode with Jupyter | Apply | Configure VSCode for efficient DSPy development ||
+| Setting Up API Keys | Apply | Configure necessary API connections for language models ||
+| **Loading and Exploring HotPotQA** | Apply | Access and examine sample data from HotPotQA | _Do we need this?_|
+| Testing Basic DSPy Functionality | Apply | Verify your environment is properly configured ||
 
 ### Chapter 3: DSPy Signatures: Defining Clean Interfaces
 
@@ -56,13 +56,13 @@ After completing this course, learners will be able to:
 
 ### Chapter 4: DSPy Modules: Implementing Core Logic
 
-| Topic | Level | Learning Goal |
-|-------|-------|---------------|
-| DSPy Module Types Overview | Understand | Identify the appropriate module type for specific tasks |
-| Implementing Predict and ChainOfThought | Apply | Use basic DSPy modules for simple reasoning tasks |
-| Building a Custom Module | Create | Design a specialized module for multi-hop reasoning |
-| Module Testing and Evaluation | Analyze | Assess module performance and debug issues |
-| Module Composition Patterns | Apply | Combine modules effectively with clean boundaries |
+| Topic | Level | Learning Goal | Comments |
+|-------|-------|---------------|----------|
+| DSPy Module Types Overview | Understand | Identify the appropriate module type for specific tasks |  |
+| Implementing Predict and ChainOfThought | Apply | Use basic DSPy modules for simple reasoning tasks | |
+| Building a Custom Module | Create | Design a specialized module for multi-hop reasoning | |
+| **Module Testing and Evaluation** | Analyze | Assess module performance and debug issues | _shall we test manually and ignore evaluation_ |
+| Module Composition Patterns | Apply | Combine modules effectively with clean boundaries | |
 
 ### Chapter 5: Building the Retrieval Component
 
@@ -86,13 +86,13 @@ After completing this course, learners will be able to:
 
 ### Chapter 7: Composing a Complete Pipeline
 
-| Topic | Level | Learning Goal |
-|-------|-------|---------------|
-| Pipeline Architecture Integration | Create | Combine all components with clean boundaries |
-| Implementing System Control Flow | Create | Build the main control logic for the complete system |
-| Error Handling and Edge Cases | Apply | Add robust error handling to the pipeline |
-| Testing with HotPotQA | Evaluate | Assess system performance on test questions |
-| Final System Review | Analyze | Review the complete implementation and boundary API advantages |
+| Topic | Level | Learning Goal | Comments |
+|-------|-------|---------------| ----------|
+| Pipeline Architecture Integration | Create | Combine all components with clean boundaries ||
+| Implementing System Control Flow | Create | Build the main control logic for the complete system ||
+| Error Handling and Edge Cases | Apply | Add robust error handling to the pipeline ||
+| **Testing with HotPotQA** | Evaluate | Assess system performance on test questions | _Do we need this?_ |
+| Final System Review | Analyze | Review the complete implementation and boundary API advantages ||
 
 ## Topics Covered
 
@@ -106,7 +106,7 @@ After completing this course, learners will be able to:
 - Question answering systems
 - Information retrieval with ColBERTv2
 - Python-based AI application development
-- HotPotQA dataset utilization
+- **HotPotQA** dataset utilization
 - Software engineering for AI systems
 - Type hinting for language models
 - Component composition patterns
@@ -126,4 +126,10 @@ This course assumes intermediate-level knowledge of Python programming and basic
 
 ---
 
-*This course is designed to transform how you approach AI development, moving beyond brittle prompts to create maintainable, testable AI systems using software engineering best practices.*
+*This course is designed to transform how you approach AI development, moving beyond brittle prompts to create 
+maintainable, testable AI systems using software engineering best practices.*
+
+-- 
+
+### Notes
+- [Implementing Colbertv2](https://deepwiki.com/search/how-to-use-dspy-with-colbert-g_0c14461e-a4b6-4ba3-b451-01c7410ecbe5)

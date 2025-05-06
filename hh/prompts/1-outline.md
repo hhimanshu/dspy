@@ -26,13 +26,13 @@ After completing this course, learners will be able to:
 
 ### Chapter 1: Introduction to DSPy and Boundary APIs
 
-| Topic | Level | Learning Goal |
-|-------|-------|---------------|
-| Understanding Boundary APIs in AI Systems | Understand | Define clean interfaces between AI components |
-| Traditional Prompting vs DSPy Programming | Understand | Explain the limitations of traditional prompting compared to DSPy's programming approach |
-| DSPy Philosophy and Benefits | Understand | Describe the core principles of DSPy and how it improves AI system development |
-| Course Project Overview | Remember | Identify the components of our multi-hop question answering system |
-| HotPotQA Dataset Introduction | Remember | Recognize the structure and purpose of the HotPotQA dataset |
+| Topic | Level | Learning Goal | Comments |
+|-------|-------|---------------| ----------|
+| Understanding Boundary APIs in AI Systems | Understand | Define clean interfaces between AI components ||
+| Traditional Prompting vs DSPy Programming | Understand | Explain the limitations of traditional prompting compared to DSPy's programming approach ||
+| DSPy Philosophy and Benefits | Understand | Describe the core principles of DSPy and how it improves AI system development ||
+| Course Project Overview | Remember | Identify the components of our multi-hop question answering system ||
+| HotPotQA Dataset Introduction | Remember | Recognize the structure and purpose of the HotPotQA dataset | _Not needed for the course_ |
 
 ### Chapter 2: Setting Up the Environment in VSCode
 
